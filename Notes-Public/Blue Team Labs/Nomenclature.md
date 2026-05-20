@@ -1,0 +1,5 @@
+[command-line auditing - Google Search](https://www.google.com/search?q=command-line+auditing&oq=command-line+auditing&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOagCALACAA&sourceid=chrome&ie=UTF-8), [Command-line Auditing on Windows: Why You Need It! | by Syed Hasan | Medium](https://syedhasan010.medium.com/command-line-auditing-on-windows-why-you-need-it-c2b1fcbe5d6a).
+[vssadmin - Google Search](https://www.google.com/search?q=vssadmin&oq=vssadmin&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOagCALACAA&sourceid=chrome&ie=UTF-8).
+[Attacking Docker exposed API | by Riccardo Ancarani | Medium](https://medium.com/@riccardo.ancarani94/attacking-docker-exposed-api-3e01ffc3c124),
+[Potential Meterpreter Reverse Shell | Elastic Security [8.19] | Elastic](https://www.elastic.co/guide/en/security/8.19/potential-meterpreter-reverse-shell.html),
+https://www.google.com/search?client=firefox-b-d&q=inline+blocking. inline blocking

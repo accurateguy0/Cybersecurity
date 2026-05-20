@@ -1,0 +1,1 @@
+nmap -p- -Pn -n --open -T5 <target_ip>

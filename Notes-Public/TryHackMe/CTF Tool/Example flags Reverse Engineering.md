@@ -1,0 +1,2 @@
+- Launch Ghidra: `./ghidraRun` (`ghidraRun.bat` for Windows)
+    - or launch [PyGhidra](https://github.com/NationalSecurityAgency/ghidra/blob/master/Ghidra/Features/PyGhidra/README.md): `./support/pyGhidraRun` (`support\pyGhidraRun.bat` for Windows)

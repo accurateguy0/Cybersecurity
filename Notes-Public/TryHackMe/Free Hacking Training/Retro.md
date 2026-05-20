@@ -1,0 +1,1 @@
+our victim Wade left a clue **“parzival”** that if we try to enter as our password it works with our user **“Wade”** and boom we are in the WordPress dashboard.

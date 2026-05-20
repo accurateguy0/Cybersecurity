@@ -1,0 +1,945 @@
+{
+  "main": {
+    "id": "3b467d43f5dc6a4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "9519af65ada0b31c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3725f449e07f958",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Free Hacking Training/Network Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Network Services"
+            }
+          },
+          {
+            "id": "6c4a93ae523ac5c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Free Hacking Training/Network Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Network Services"
+            }
+          },
+          {
+            "id": "8612dfcae2e74e7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Reverse Engineering Tools.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reverse Engineering Tools"
+            }
+          },
+          {
+            "id": "f6888f9ec6ddeca7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Simple CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Simple CTF"
+            }
+          },
+          {
+            "id": "7b41a52daea53646",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Simple CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Simple CTF"
+            }
+          },
+          {
+            "id": "b175eee75f35c441",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Simple CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Simple CTF"
+            }
+          },
+          {
+            "id": "6b661fdc46f1833e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux Privilege Escalation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux Privilege Escalation"
+            }
+          },
+          {
+            "id": "b983e1283cf45276",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Free Hacking Training/Windows PrivEsc.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows PrivEsc"
+            }
+          },
+          {
+            "id": "e00fb24597003c30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Medium/Why Most Cybersecurity Students Are Unemployable (And Don’t Know It Yet).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Why Most Cybersecurity Students Are Unemployable (And Don’t Know It Yet)"
+            }
+          },
+          {
+            "id": "1e1d7f6e654322ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux Privilege Escalation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux Privilege Escalation"
+            }
+          },
+          {
+            "id": "c8b445ddaf190225",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rabbit Hole.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rabbit Hole"
+            }
+          },
+          {
+            "id": "bf75baa8e7c64d32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL Practice.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL Practice"
+            }
+          },
+          {
+            "id": "c900e0b31263cc5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows PrivEsc Arena.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows PrivEsc Arena"
+            }
+          },
+          {
+            "id": "dc741a9705a88246",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eavesdropper.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Eavesdropper"
+            }
+          },
+          {
+            "id": "a4a1e01b06771901",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Windows Hacking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Windows Hacking"
+            }
+          },
+          {
+            "id": "5741959afd238dfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Simple CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Simple CTF"
+            }
+          },
+          {
+            "id": "d7262ce0ed2b92d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Simple CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Simple CTF"
+            }
+          },
+          {
+            "id": "1ed95ca80bad55bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anthem.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Anthem"
+            }
+          },
+          {
+            "id": "c9af9bc77960508c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Windows Hacking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows Hacking"
+            }
+          },
+          {
+            "id": "0675ec030d57d821",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Relevant.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relevant"
+            }
+          },
+          {
+            "id": "7039ea352c6debca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows Forensics 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows Forensics 1"
+            }
+          },
+          {
+            "id": "9a2d235932967425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows Forensics 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows Forensics 1"
+            }
+          },
+          {
+            "id": "2f8402d00972f82d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LocalPotato.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LocalPotato"
+            }
+          },
+          {
+            "id": "585efea89913492c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Microsoft Intune Monitoring.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Microsoft Intune Monitoring"
+            }
+          },
+          {
+            "id": "066ccfb1ad6cdeb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Simple CTF.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Simple CTF"
+            }
+          },
+          {
+            "id": "d9408a9cb7d3a441",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
+          },
+          {
+            "id": "83a580d77148e9c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSINT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OSINT"
+            }
+          },
+          {
+            "id": "85cf4ce4dfda0cf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mobile CTF from KPMG.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mobile CTF from KPMG"
+            }
+          },
+          {
+            "id": "4b472354c3a06a7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sudo Buffer Overflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sudo Buffer Overflow"
+            }
+          },
+          {
+            "id": "12ec4a83af4819c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Simple CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Simple CTF"
+            }
+          },
+          {
+            "id": "102598bbc75010c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blaster.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Blaster"
+            }
+          },
+          {
+            "id": "77a0ed6e045cd9de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ignite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ignite"
+            }
+          },
+          {
+            "id": "05ceec06f52b9e66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kenobi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kenobi"
+            }
+          },
+          {
+            "id": "1f733a3d816325ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Simple CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Simple CTF"
+            }
+          },
+          {
+            "id": "78910d1574faf919",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c4ptur3-th3-fl4g.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "c4ptur3-th3-fl4g"
+            }
+          },
+          {
+            "id": "149bad83cb0be75f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags for Listener.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags for Listener"
+            }
+          },
+          {
+            "id": "e6bd71c23a78e972",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Break Out The Cage.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Break Out The Cage"
+            }
+          },
+          {
+            "id": "183a8e31afe30ad5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lian_Yu.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lian_Yu"
+            }
+          },
+          {
+            "id": "7bb62e3e6c8c6f89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lo-Fi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lo-Fi"
+            }
+          },
+          {
+            "id": "bddccb7a7a329d76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neighbour.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Neighbour"
+            }
+          },
+          {
+            "id": "b6fbf2536089533e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Moebius.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Moebius"
+            }
+          },
+          {
+            "id": "aab02d14bfa2ee1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Simple CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Simple CTF"
+            }
+          },
+          {
+            "id": "bc1dcadc06515a83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Free Hacking Training/b3dr0ck.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "b3dr0ck"
+            }
+          },
+          {
+            "id": "fd22e86038a79c4f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
+          },
+          {
+            "id": "c2b28ef1a3226804",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Simple CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Simple CTF"
+            }
+          },
+          {
+            "id": "6232676a18a34728",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Free Hacking Training/VulnNet - Active VulnNet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VulnNet - Active VulnNet"
+            }
+          },
+          {
+            "id": "1bd6f783cca84bf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Windows Hacking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Windows Hacking"
+            }
+          },
+          {
+            "id": "604af2402f83b8bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Free Hacking Training/VulnNet - Active VulnNet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "VulnNet - Active VulnNet"
+            }
+          },
+          {
+            "id": "fb21071b8f1abca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Simple CTF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Simple CTF"
+            }
+          },
+          {
+            "id": "6dbd4bc45118cde0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTF Tool/Example flags Command Prompt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example flags Command Prompt"
+            }
+          },
+          {
+            "id": "05d1a5f776b56089",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resolving setting file permissions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Resolving setting file permissions"
+            }
+          },
+          {
+            "id": "09e3ffcb7abab818",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eavesdropper.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Eavesdropper"
+            }
+          },
+          {
+            "id": "89ef6522f9445abe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eavesdropper.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Eavesdropper"
+            }
+          }
+        ],
+        "currentTab": 27
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3e5a26c3fedf727a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7d26646a2a0c616",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e040d26202afdb29",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "952ee0f4bec2b22b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3182e357b22359a2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "54ebe5e56431061a",
+    "type": "split",
+    "children": [
+      {
+        "id": "df718169b402fb70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57cb6bfe51785fc7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Phishing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Phishing"
+            }
+          },
+          {
+            "id": "185abcb91fee6423",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Networking Core.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Networking Core"
+            }
+          },
+          {
+            "id": "b92a73243bbd5028",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "40697a1fa9c9e79d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Networking Core.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Networking Core"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "952ee0f4bec2b22b",
+  "lastOpenFiles": [
+    "Microsoft Intune Monitoring.md",
+    "Mobile CTF from KPMG.md",
+    "PHP basics.md",
+    "OSINT.md",
+    "Windows Hacking cmd.md",
+    "Windows Forensics 1.md",
+    "Welcome.md",
+    "Vim.md",
+    "SQL Practice.md",
+    "Resolving setting file permissions.md",
+    "Relevant.md",
+    "LocalPotato.md",
+    "Chrome Linux connection to Windows Problem.md",
+    "The Bug Bounty Automation Stack That Can Generate $10K+ (Open Source Tools Only).md",
+    "Bug Bounty",
+    "Most Cybersecurity Careers Won’t Survive the AI Era — Here’s the Filter.md",
+    "CTF Tool/Windows Hacking.md",
+    "CTF Tool/Example flags for Listener.md",
+    "Anthem.md",
+    "CTF Tool/Example flags Simple CTF.md",
+    "CTF Tool/Simple CTF.md",
+    "Blueprint.md",
+    "Free Hacking Training/Retro.md",
+    "CTF Tool/Example flags Linux.md",
+    "CTF Tool/Example flags Windows Hacking.md",
+    "Free Hacking Training/Ollie.md",
+    "Free Hacking Training/dogcat.md",
+    "Medium",
+    "Presecurity",
+    "Extras",
+    "Valentines 2026",
+    "Free Hacking Training",
+    "Free Hacking Course",
+    "CTF Tool",
+    "SOC L2",
+    "CTF",
+    "AI/Pasted image 20251118162441.png",
+    "AI/Pasted image 20251118162132.png",
+    "AI/Pasted image 20251118162129 1.png",
+    "AI/Pasted image 20251118162129.png",
+    "AI/Pasted image 20251118162111.png",
+    "AI/Pasted image 20251118162045.png",
+    "AI/Pasted image 20251118162008.png",
+    "Security Basics/Web/Pasted image 20251028141837.png"
+  ]
+}

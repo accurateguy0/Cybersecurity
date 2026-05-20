@@ -1,0 +1,5 @@
+One example of a live malware repository is [theZoo](https://github.com/ytisf/theZoo), where you may play with live malware and gain insights into how they will work within specific environmental conditions. Malware characteristics and analysis are constantly being published as well, and a good example worth exploring is [Trend Micro’s Threat Encyclopedia](https://www.trendmicro.com/vinfo/us/threat-encyclopedia/).
+
+Patterns of Activity  
+
+At the end of the day, when we’ve already narrowed down the specific bad (e.g. relevant threat actors, etc.) that we want to focus on, the next sensible step is to characterise their behaviour through patterns of activity that they are inclined to make. In any conversation regarding this, the [MITRE ATT&CK Matrix](https://attack.mitre.org/) has always been a top resource, and it may as well be the star of the show here.

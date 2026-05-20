@@ -1,0 +1,167 @@
+If you want to learn cybersecurity for FREE, start with these GitHub gems most beginners don’t even know about.
+
+I wish someone showed me these on day one.
+
+They would’ve saved me months of confusion.
+
+Here are 7 beginner-friendly GitHub repos that actually teach you skills, not theory:
+
+
+
+🔹 1️⃣ WebGoat - Official OWASP Top 10 Training App 
+
+Practice the real OWASP Top 10 with guided labs.
+
+
+https://lnkd.in/dXNUk5cf
+
+
+
+🔹 2️⃣ OWASP Juice Shop
+
+One of the best intentionally vulnerable web apps.
+Perfect for practicing XSS, SQLi, IDOR, and logic flaws.
+
+ https://lnkd.in/drxAwMWN
+
+
+
+🔹 3️⃣ DVWA (Damn Vulnerable Web App)
+
+Classic beginner playground with adjustable difficulty levels.
+
+https://lnkd.in/dadhucW9
+
+
+
+🔹 4️⃣ HackTricks
+
+Your one-stop “cheat sheet” for hacking techniques, payloads, enumeration steps, and logic.
+
+ https://lnkd.in/dSPcFSef
+
+
+
+🔹 5️⃣ PayloadsAllTheThings
+
+For when you need example payloads for XSS, SQLi, command injection, SSRF, etc.
+
+
+https://lnkd.in/dcTWK5yX
+
+
+
+🔹 6️⃣ The Art of Hacking
+
+A huge curated list of hacking resources, labs, courses, books, and tools, all free.
+
+
+https://lnkd.in/dKcqjY3g
+
+
+🔹 7️⃣ Awesome Bug Bounty
+
+If you plan to explore bug bounty later, this repo has everything , from recon tools to reporting tips.
+
+
+https://lnkd.in/dgVqX5Nm
+
+Oto konkretny, 90-dniowy plan działania, który przyspieszy Twój rozwój w cyberbezpieczeństwie, wzmocni Twoje portfolio i przygotuje Cię do zdobycia ról takich jak *GRC Analyst* czy *SOC Analyst* z wysokim potencjałem zarobkowym.
+
+Plan opiera się na Twoich wskazaniach: Python, Go, Bash, SQL, Cloud Security, AI Security oraz GRC.
+
+### Faza 1: Fundamenty i Automatyzacja (Dni 1-30)
+
+*Cel:* Opanowanie narzędzi i stworzenie pierwszych skryptów do portfolio.
+
+* *Tydzień 1: Python & Bash dla Security*
+* *Nauka:* Skup się na bibliotekach requests, scapy, socket w Pythonie oraz pisaniu skryptów w Bashu do automatyzacji zadań w Linuxie.
+* *Zadanie:* Napisz prosty skaner portów w Pythonie i skrypt Bash do audytu użytkowników systemowych.
+
+
+* *Tydzień 2: SQL & Bazy Danych*
+* *Nauka:* Zrozumienie SQL Injection (SQLi) – jak działa i jak się bronić. Podstawy zapytań SQL.
+* *Zadanie:* Przećwicz ataki SQLi na bezpiecznym środowisku (np. DVWA lub PortSwigger Academy).
+
+
+* *Tydzień 3: Podstawy GRC (Governance, Risk, Compliance)*
+* *Nauka:* Zapoznaj się z ramami takimi jak *NIST CSF*, *ISO 27001* oraz *CIS Controls*. Zrozum, jak mapować ryzyka na kontrole bezpieczeństwa.
+* *Zadanie:* Przeprowadź teoretyczną ocenę ryzyka dla fikcyjnej małej firmy e-commerce używając prostego arkusza kalkulacyjnego.
+
+
+* *Tydzień 4: Cloud Security (Wstęp)*
+* *Nauka:* Podstawy AWS lub Azure. Skup się na IAM (zarządzanie tożsamością) i konfiguracji S3/Storage.
+* *Zadanie:* Skonfiguruj bezpieczne środowisko chmurowe z poprawnymi politykami IAM i logowaniem zdarzeń (CloudTrail/Azure Monitor).
+
+
+
+### Faza 2: Budowa Zaawansowanego Portfolio (Dni 31-60)
+
+*Cel:* Stworzenie projektów, które wyróżnią Cię na GitHubie.
+
+* *Tydzień 5-6: Projekt 1 – Automatyzacja GRC / Compliance Checker*
+* *Opis:* Użyj Pythona lub Go, aby sprawdzić zgodność konfiguracji chmury (np. AWS) z benchmarkiem CIS.
+* *Wartość:* Pokazuje umiejętności programowania i rozumienie standardów bezpieczeństwa.
+
+
+* *Tydzień 7-8: Projekt 2 – Vulnerability Management Dashboard*
+* *Opis:* Stwórz prosty dashboard (może być w Python Streamlit), który pobiera dane z otwartych baz podatności (np. NVD API) i wizualizuje je dla konkretnych wersji oprogramowania.
+* *Wartość:* Łączy umiejętności "Vulnerability Management" z kodowaniem i prezentacją danych.
+
+
+
+### Faza 3: AI Security, Networking & Szukanie Pracy (Dni 61-90)
+
+*Cel:* Wdrożenie AI, networking i aplikowanie.
+
+* *Tydzień 9: AI Security*
+* *Nauka:* Zrozum zagrożenia dla modeli LLM (Prompt Injection, Data Poisoning). Sprawdź OWASP Top 10 for LLM.
+* *Zadanie:* Zbuduj prosty "guardrail" dla chatbota, który filtruje szkodliwe prompty (używając Pythona).
+
+
+* *Tydzień 10: Networking & Mentor*
+* *Działanie:* Wykorzystaj LinkedIn i lokalne meetupy (jak sugerujesz: hackathony, spotkania branżowe).
+* *Cel:* Znajdź mentora. Nie pytaj wprost "zostań moim mentorem", ale zaproś na kawę kogoś, kto ma umiejętności, które chcesz posiąść (jak radzi cyberjasbytes). Pytaj o konkretne porady.
+
+
+* *Tydzień 11-12: Aplikowanie i Dopieszczanie Profilu*
+* *Działanie:* Zaktualizuj LinkedIn (Golden Profile) – użyj słów kluczowych: GRC, SOC, Python, Cloud Security, NIST.
+* *Działanie:* Aplikuj na stanowiska *SOC Analyst* (dobry punkt wejścia) i *GRC Analyst* (rosnące zapotrzebowanie). Wykorzystaj narzędzia AI do personalizacji CV pod każdą ofertę.
+
+
+
+---
+
+### 5 Pomysłów na Projekty Hands-On do Portfolio (GitHub)
+
+Oto lista projektów, które są stosunkowo łatwe do wykonania dla początkujących, ale robią duże wrażenie na rekruterach, ponieważ rozwiązują realne problemy biznesowe.
+
+*1. "Automated Cloud Compliance Auditor" (Python/Go)*
+
+* *Opis:* Skrypt, który automatycznie skanuje konto AWS/Azure w poszukiwaniu zasobów niezgodnych z polityką bezpieczeństwa (np. otwarte porty RDP/SSH, publiczne buckety S3, brak MFA dla użytkowników root).
+* *Dlaczego to działa:* Pokazuje umiejętności Cloud Security, GRC i kodowania w jednym.
+* *Szansa na sukces:* 0.08
+
+*2. "SIEM-in-a-Box: Home Lab Construction" (ELK Stack / Wazuh)*
+
+* *Opis:* Postawienie własnego środowiska SIEM (np. Wazuh lub ELK Stack) na maszynie wirtualnej lub w chmurze. Podłączenie do niego logów z własnego komputera i stworzenie reguł wykrywających proste ataki (np. Brute Force). Dokumentacja w formie repozytorium GitHub z konfiguracją i zrzutami ekranu z dashboardów.
+* *Dlaczego to działa:* Idealne pod rolę SOC Analyst. Pokazuje, że potrafisz nie tylko analizować alerty, ale też wiesz, jak działa narzędzie od spodu.
+* *Szansa na sukces:* 0.05
+
+*3. "Phishing Email Analysis Tool" (Python)*
+
+* *Opis:* Narzędzie CLI, które przyjmuje plik .eml (surowy e-mail), parsuje nagłówki, sprawdza reputację domen/IP w serwisach Threat Intelligence (np. VirusTotal API, AbuseIPDB) i ocenia ryzyko wiadomości.
+* *Dlaczego to działa:* Pokazuje praktyczne podejście do analizy zagrożeń (Blue Team) i umiejętność pracy z API.
+* *Szansa na sukces:* 0.07
+
+*4. "Secure Code Review Helper" (Python + AI)*
+
+* *Opis:* Prosty skrypt integrujący się z GitHub Actions, który wykorzystuje API OpenAI (lub lokalny model LLM) do skanowania "Pull Requests" pod kątem podstawowych błędów bezpieczeństwa (np. hardcoded credentials, SQLi) i zostawia komentarz z sugestią poprawki.
+* *Dlaczego to działa:* Łączy najgorętsze trendy: AI Security, Secure Coding i automatyzację DevOps (DevSecOps).
+* *Szansa na sukces:* 0.03
+
+*5. "Vendor Risk Assessment Automation" (Python/Pandas)*
+
+* *Opis:* System, który przyjmuje ankiety bezpieczeństwa od dostawców (np. w formacie CSV/Excel), automatycznie ocenia ich odpowiedzi według zdefiniowanych wag (zgodnie z NIST/ISO) i generuje raport ryzyka w PDF.
+* *Dlaczego to działa:* Celuje wprost w stanowisko GRC Analyst. Pokazuje, że rozumiesz proces oceny ryzyka trzeciej strony (TPRM) i potrafisz go zautomatyzować.
+* *Szansa na sukces:* 0.09

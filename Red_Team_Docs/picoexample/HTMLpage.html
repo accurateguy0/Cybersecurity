@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+
+<h1>Bookmark</h1>
+
+<p title="tooltip" style="color:blue">My blue paragraph.</p>
+<a href="https://www.w3schools.com">This is a link</a>
+<img src="picologo.png" width="104" height="142">
+<script>
+  javascript:(function() {
+    var encryptedFlag = "àÒÆÞ¦È¬ëÙ£ÖÓÚåÛÑ¢ÕÓÉÕËÆÒÇÚËí";
+    var key = "picoctf";
+    var decryptedFlag = "";
+    for (var i = 0; i < encryptedFlag.length; i++) {
+        decryptedFlag += String.fromCharCode((encryptedFlag.charCodeAt(i) - key.charCodeAt(i % key.length) + 256) % 256);
+    }
+    alert(decryptedFlag);
+})();
+
+</script>
+</body>
+</html>

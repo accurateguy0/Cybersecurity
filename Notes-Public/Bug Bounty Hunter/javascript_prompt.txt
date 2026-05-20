@@ -1,0 +1,1 @@
+Analyze this JavaScript file for potential security vulnerabilities, focusing on: API endpoints, authentication logic, data validation, sensitive data exposure

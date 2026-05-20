@@ -1,0 +1,1 @@
+Based on a report from IBM, human errors were the main reason for 95% of successful cyber attacks. The study concluded that people are the main threat to the security of a business. Being more security-aware will significantly help mitigate potential threats and risks to your organization.

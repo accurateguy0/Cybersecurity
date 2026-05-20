@@ -1,0 +1,6 @@
+that leverages authentication through NTLM.  In practice, however, some caveats must  be dealt with when selecting the protocol to attack. The PoC uses the SMB Server to avoid some extra protections in place for other protocols against similar attack vectors and even implements a quick bypass to get the exploit to work against the SMB Server. While we won't go into these technical details in this room, you can read about them in the [original exploit author's post (opens in new tab)](https://decoder.cloud/2023/02/13/localpotato-when-swapping-the-context-leads-you-to-system/).
+
+In this room, we have covered how LocalPotato can be weaponized by combining it with a different attack vector to achieve privilege escalation. A brief and simplified explanation of each attack vector was provided, but you can expand on them by reading the original articles for both vulnerabilities:
+
+- [LocalPotato(opens in new tab)](https://github.com/decoder-it/LocalPotato)
+- [LPE via StorSvc](https://github.com/blackarrowsec/redteam-research/commits/master/LPE%20via%20StorSvc)

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trust Gaps Lab: SSRF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chained Trust Gaps Lab</h1>
+            <p>Demonstrating SSRF via SVG Polyglot in an internal image processing webhook.</p>
+        </header>
+
+        <main>
+            <!-- Step 1: Upload -->
+            <section class="card" id="upload-section">
+                <h2>1. Upload Avatar</h2>
+                <p>Upload your <code>.svg</code> payload to the external-facing <code>/api/upload</code>.</p>
+                <div class="upload-area">
+                    <input type="file" id="file-input" accept=".svg,.png,.jpg">
+                    <button id="upload-btn" class="btn primary">Upload</button>
+                </div>
+                <div class="status" id="upload-status"></div>
+            </section>
+
+            <!-- Step 2: Trigger Process -->
+            <section class="card" id="process-section">
+                <h2>2. Trigger Background Processing</h2>
+                <p>Simulate the webhook/cron job hitting <code>/api/process</code>.</p>
+                <div class="process-area">
+                    <input type="text" id="file-id-input" placeholder="File ID (from upload)" readonly>
+                    <button id="process-btn" class="btn secondary" disabled>Trigger Worker</button>
+                </div>
+                <div class="status" id="process-status"></div>
+            </section>
+
+            <!-- OOB Logs -->
+            <section class="card logs-card" id="logs-section">
+                <h2>Internal OOB Server Logs</h2>
+                <p>Monitoring <code>/api/oob-log</code> for SSRF hits...</p>
+                <button id="refresh-logs-btn" class="btn minor">Refresh Logs</button>
+                <div class="log-window" id="log-window">
+                    <pre>Waiting for requests...</pre>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        const uploadBtn = document.getElementById('upload-btn');
+        const fileInput = document.getElementById('file-input');
+        const uploadStatus = document.getElementById('upload-status');
+        
+        const processBtn = document.getElementById('process-btn');
+        const fileIdInput = document.getElementById('file-id-input');
+        const processStatus = document.getElementById('process-status');
+
+        const logWindow = document.getElementById('log-window');
+        const refreshLogsBtn = document.getElementById('refresh-logs-btn');
+
+        // Step 1: Upload
+        uploadBtn.addEventListener('click', async () => {
+            const file = fileInput.files[0];
+            if (!file) {
+                uploadStatus.innerHTML = '<span class="error">Please select a file first.</span>';
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('avatar', file);
+
+            uploadStatus.innerHTML = 'Uploading...';
+            try {
+                const res = await fetch('/api/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await res.json();
+                
+                if (res.ok) {
+                    uploadStatus.innerHTML = `<span class="success">Upload successful! ID: ${data.id}</span>`;
+                    fileIdInput.value = data.id;
+                    processBtn.disabled = false;
+                } else {
+                    uploadStatus.innerHTML = `<span class="error">Error: ${data.error}</span>`;
+                }
+            } catch (err) {
+                uploadStatus.innerHTML = `<span class="error">Request failed: ${err.message}</span>`;
+            }
+        });
+
+        // Step 2: Process
+        processBtn.addEventListener('click', async () => {
+            const id = fileIdInput.value;
+            if (!id) return;
+
+            processStatus.innerHTML = 'Worker is processing...';
+            processBtn.disabled = true;
+
+            try {
+                const res = await fetch(`/api/process?id=${id}`, {
+                    method: 'POST'
+                });
+                const data = await res.json();
+
+                if (res.ok) {
+                    processStatus.innerHTML = `<span class="success">${data.message}</span>`;
+                } else {
+                    processStatus.innerHTML = `<span class="error">Error: ${data.error}</span>`;
+                }
+            } catch (err) {
+                processStatus.innerHTML = `<span class="error">Worker request failed: ${err.message}</span>`;
+            } finally {
+                processBtn.disabled = false;
+                setTimeout(fetchLogs, 1000); // Wait a second for SSRF to finish and log
+            }
+        });
+
+        // Fetch logs
+        async function fetchLogs() {
+            try {
+                const res = await fetch('/api/logs');
+                const logs = await res.json();
+                
+                if (logs.length === 0) {
+                    logWindow.innerHTML = '<pre>No requests yet...</pre>';
+                } else {
+                    logWindow.innerHTML = logs.map(l => 
+                        `<div class="log-entry"><span class="time">[${new Date(l.timestamp).toLocaleTimeString()}]</span> ${l.message} <br> ${JSON.stringify(l.data)}</div>`
+                    ).join('');
+                }
+            } catch (err) {
+                console.error("Failed to fetch logs", err);
+            }
+        }
+
+        refreshLogsBtn.addEventListener('click', fetchLogs);
+
+        // Auto-poll logs every 3 seconds
+        setInterval(fetchLogs, 3000);
+    </script>
+</body>
+</html>

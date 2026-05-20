@@ -1,0 +1,1 @@
+IDOR, create an account, log in, create a letter, then open it. Change the index of letter ( at the http section). Change the index to 1.

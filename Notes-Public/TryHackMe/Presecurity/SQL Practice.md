@@ -1,0 +1,1 @@
+[Learn SQL - Online SQL Terminal - Practice SQL Querys](https://www.sql-practice.com/)

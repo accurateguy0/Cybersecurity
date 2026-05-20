@@ -1,0 +1,2 @@
+[EFI NEtwork - Google Search](https://www.google.com/search?q=EFI+NEtwork&oq=EFI+NEtwork&gs_lcrp=EgRlZGdlKgYIARBFGDkyDwgAEAAYQxiABBiKBRj5BzIGCAEQRRg5MgwIAhAAGBQYhwIYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyDAgGEAAYQxiABBiKBTIMCAcQABhDGIAEGIoFMgcICBAAGIAE0gEINDI4N2owajGoAgCwAgA&sourceid=chrome&ie=UTF-8).
+[How To Fix "EFI Network issue Booting Problem in Vmware Workstation 15](https://www.youtube.com/watch?v=roYvD77MoX0), solve a booting problem. Chnage from UEFI to BIOS.
