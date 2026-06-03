@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub/GitHub Basics.md",
+                "file": "GitHub/Fixing Remote Origin Already Exists.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub Basics"
+              "title": "Fixing Remote Origin Already Exists"
             }
           }
         ],
@@ -326,13 +326,15 @@
   },
   "active": "3d3227b895fbe229",
   "lastOpenFiles": [
+    "GitHub/Fixing push declined due to repository rule violations.md",
+    "GitHub/Fixing Remote Origin Already Exists.md",
+    "GitHub/GitHub Basics.md",
     "Extras/Talent Days konkurs/Karierowy asystent AI/Notatki.md",
     "Extras/Talent Days konkurs/AI w biznesie i codziennym życiu/Notatki.md",
     "Untitled 1.md",
     "ASP .NET/ASP .NET basics.md",
     "ASP .NET",
     "Untitled.md",
-    "GitHub/Fixing push declined due to repository rule violations.md",
     "Extras/TCM/Operation Breadcrumbs.md",
     "Extras/TCM",
     "AI Hacking/AI hacking.md",
@@ -341,9 +343,7 @@
     "Extras/Talent Days konkurs/Wprowadzenie do AI Kompleksowy przewodnik po sztucznej inteligencji",
     "Extras/Talent Days konkurs/Karierowy asystent AI",
     "Extras/Talent Days konkurs",
-    "GitHub/Fixing Remote Origin Already Exists.md",
     "GitHub/Cannot push.md",
-    "GitHub/GitHub Basics.md",
     "README.md",
     "IoT/MikroTik RouterBoard/15. How to Identify Users Running BitTorrent or P2P (Pre 6.39.x).md",
     "Extras/VPN resolution for WSL Kali.md",
